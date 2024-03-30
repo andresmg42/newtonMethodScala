@@ -21287,3 +21287,933 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2024.03.29 21:13:59 INFO  Shut down connection with build server.
 2024.03.29 21:13:59 INFO  Shut down connection with build server.
 2024.03.29 21:14:00 INFO  Exiting server
+2024.03.29 22:23:50 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3' for client Visual Studio Code 1.87.2.
+22:23:53.523 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+22:23:53.532 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+22:23:53.533 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+22:23:53.539 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+22:23:53.539 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader sun.misc.Launcher$AppClassLoader@4e25154f ...
+22:23:53.539 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+22:23:53.539 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+22:23:53.540 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader sun.misc.Launcher$AppClassLoader@4e25154f ...
+22:23:53.540 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/user/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+22:23:53.559 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+22:23:53.559 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+22:23:53.559 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+22:23:53.559 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+22:23:53.560 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+22:23:53.560 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+22:23:53.574 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:23:53.574 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+22:23:53.576 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+22:23:53.576 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+22:23:53.576 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+22:23:53.839 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\metals (H2 2.2)
+22:23:53.840 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+22:23:53.840 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+22:23:53.842 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+22:23:53.842 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+22:23:53.853 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+22:23:53.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+22:23:53.856 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:23:53.874 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+22:23:53.884 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:23:53.899 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:23:53.899 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:23:53.899 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:23:53.899 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:23:53.899 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:23:53.901 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:23:53.901 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:23:53.901 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:23:53.901 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:23:53.901 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:23:53.923 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.048s)
+22:23:53.927 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+22:23:53.936 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+22:23:53.941 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+22:23:54.003 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 22 of 131M
+2024.03.29 22:23:58 INFO  skipping build import with status 'Installed'
+2024.03.29 22:23:58 INFO  Attempting to connect to the build server...
+2024.03.29 22:23:58 INFO  Bloop uses C:\Program Files\OpenLogic\jdk-8.0.402.06-hotspot\ defined at C:\Users\user\.bloop\bloop.json
+2024.03.29 22:23:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.03.29 22:23:59 INFO  Attempting to connect to the build server...
+2024.03.29 22:23:59 INFO  Bloop uses C:\Program Files\OpenLogic\jdk-8.0.402.06-hotspot\ defined at C:\Users\user\.bloop\bloop.json
+2024.03.29 22:24:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\project\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.03.29 22:24:00 INFO  time: Connected to build server in 2.87s
+2024.03.29 22:24:00 INFO  Connected to Build server: Bloop v1.5.15
+2024.03.29 22:24:01 INFO  time: Imported build in 0.61s
+2024.03.29 22:24:13 INFO  no build target found for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.29 22:24:17 INFO  time: indexed workspace in 3.96s
+2024.03.29 22:24:18 WARN  no build target for: C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+[31merror[39m: src\test\pruevas.worksheet.sc:90:24: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Suma(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                       ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:90:36: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Suma(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                                   ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:91:30: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(Numero(0),e2l)=>e2l
+                             ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:92:30: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,Numero(0))=>e1l
+                             ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:93:29: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Suma(e1l,e2l)
+                            ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:93:33: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Suma(e1l,e2l)
+                                ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:95:25: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Resta(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:95:37: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Resta(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                                    ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:96:30: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,Numero(0))=>e1l
+                             ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:97:30: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Resta(e1l,e2l)
+                             ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:97:34: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Resta(e1l,e2l)
+                                 ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:99:24: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Prod(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                       ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:99:36: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Prod(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                                   ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:102:30: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(Numero(1),e2l)=>e2l
+                             ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:103:30: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,Numero(1))=>e1l
+                             ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:104:29: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Prod(e1l,e2l)
+                            ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:104:33: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Prod(e1l,e2l)
+                                ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:106:23: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Div(e1,e2)=>(limpiar(e1),limpiar(e2)) match {
+                      ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:106:35: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Div(e1,e2)=>(limpiar(e1),limpiar(e2)) match {
+                                  ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:109:31: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case (e1l,Numero(1))=>e1l
+                              ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:110:28: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Div(e1l,e2l)
+                           ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:110:32: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Div(e1l,e2l)
+                               ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:112:24: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Expo(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                       ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:112:36: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Expo(e1,e2)=>(limpiar(e1),limpiar(e2)) match{
+                                   ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:115:38: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,Numero(1))=>limpiar(e1l)
+                                     ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:116:29: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Expo(e1l,e2l)
+                            ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:116:33: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+        case(e1l,e2l)=>Expo(e1l,e2l)
+                                ^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:119:25: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+    case Logaritmo(e1)=>limpiar(e1) match{
+                        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:188:1: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+limpiar(derivar(Suma(Atomo('k'),Prod (Numero (3.0),Atomo('x'))),Atomo('x')))
+^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:189:9: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr) and expected result type MdocApp.this.Expr
+mostrar(limpiar(derivar(Suma(Atomo('k') ,Prod (Numero ( 3.0),Atomo('x'))),Atomo('x'))))
+        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:195:25: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Suma(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:195:38: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Suma(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                                     ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:196:35: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (Numero(0), e2Limpia) => e2Limpia // Si el primer término es cero, devuelve el segundo término
+                                  ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:197:35: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, Numero(0)) => e1Limpia // Si el segundo término es cero, devuelve el primer término
+                                  ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:198:39: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Suma(e1Limpia, e2Limpia) // De lo contrario, mantén la suma intacta
+                                      ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:198:49: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Suma(e1Limpia, e2Limpia) // De lo contrario, mantén la suma intacta
+                                                ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:200:26: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Resta(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                         ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:200:39: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Resta(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                                      ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:201:35: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, Numero(0)) => e1Limpia // Si el segundo término es cero, devuelve el primer término
+                                  ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:202:40: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Resta(e1Limpia, e2Limpia) // De lo contrario, mantén la resta intacta
+                                       ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:202:50: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Resta(e1Limpia, e2Limpia) // De lo contrario, mantén la resta intacta
+                                                 ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:204:25: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Prod(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:204:38: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Prod(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                                     ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:207:35: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (Numero(1), e2Limpia) => e2Limpia // Si uno de los términos es uno, devuelve el otro término
+                                  ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:208:35: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, Numero(1)) => e1Limpia // Si uno de los términos es uno, devuelve el otro término
+                                  ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:209:39: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Prod(e1Limpia, e2Limpia) // De lo contrario, mantén el producto intacto
+                                      ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:209:49: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Prod(e1Limpia, e2Limpia) // De lo contrario, mantén el producto intacto
+                                                ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:211:24: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Div(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                       ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:211:37: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Div(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                                    ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:214:35: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, Numero(1)) => e1Limpia // Si el divisor es uno, devuelve el dividendo
+                                  ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:215:38: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Div(e1Limpia, e2Limpia) // De lo contrario, mantén la división intacta
+                                     ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:215:48: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Div(e1Limpia, e2Limpia) // De lo contrario, mantén la división intacta
+                                               ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:217:25: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Expo(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:217:38: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Expo(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+                                     ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:220:28: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr) and expected result type MdocApp.this.Expr
+    case (_, Numero(1)) => limpiar(e1) // Cualquier número elevado a uno es el número mismo
+                           ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:221:39: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Expo(e1Limpia, e2Limpia) // De lo contrario, mantén la exponenciación intacta
+                                      ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:221:49: type mismatch;
+ found   : Any
+ required: MdocApp.this.Expr
+    case (e1Limpia, e2Limpia) => Expo(e1Limpia, e2Limpia) // De lo contrario, mantén la exponenciación intacta
+                                                ^^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:223:25: ambiguous reference to overloaded definition,
+both method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+and  method limpiar in class MdocApp of type (f: MdocApp.this.Expr): MdocApp.this.Expr
+match argument types (MdocApp.this.Expr)
+  case Logaritmo(e1) => limpiar(e1) match {
+                        ^^^^^^^
+[31merror[39m: src\test\pruevas.worksheet.sc:192:5: method limpiar is defined twice;
+  the conflicting method limpiar was defined at line 124:5
+def limpiar(f: Expr): Expr = f match {
+    ^^^^^^^
+2024.03.29 22:24:53 INFO  time: evaluated worksheet 'pruevas.worksheet.sc' in 18s
+2024.03.29 22:24:54 WARN  no build target for: C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.2s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.23s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.21s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.22s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.22s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.22s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.24s
+2024.03.29 22:24:59 INFO  time: code lens generation in 6.24s
+2024.03.29 22:25:07 INFO  time: evaluated worksheet 'pruevas.worksheet.sc' in 13s
+2024.03.29 22:25:09 INFO  time: code lens generation in 8.99s
+2024.03.29 22:25:12 INFO  no build target found for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc. Using presentation compiler with project's scala-library version: 2.13.12
+Mar 29, 2024 10:25:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-19-100.md
+2024.03.29 22:25:23 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-23-853.md
+Mar 29, 2024 10:25:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-25-119.md
+Mar 29, 2024 10:25:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-25-697.md
+Mar 29, 2024 10:25:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-26-722.md
+Mar 29, 2024 10:25:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-27-082.md
+Mar 29, 2024 10:25:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-37-895.md
+2024.03.29 22:25:38 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-43-615.md
+2024.03.29 22:25:43 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-45-141.md
+2024.03.29 22:25:45 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2024.03.29 22:25:46 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-46-696.md
+Mar 29, 2024 10:25:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-48-837.md
+2024.03.29 22:25:49 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2024.03.29 22:25:53 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2024.03.29 22:25:53 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-53-933.md
+2024.03.29 22:25:54 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-56-271.md
+2024.03.29 22:25:56 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-57-380.md
+2024.03.29 22:25:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:25:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-25-58-930.md
+2024.03.29 22:25:59 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:26:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-26-00-073.md
+2024.03.29 22:26:00 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:26:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-26-02-975.md
+2024.03.29 22:26:03 ERROR Failed to tokenize input for semantic tokens for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+scala.meta.tokenizers.TokenizeException: <input>:192: error: unclosed comment
+/*def limpiar(f: Expr): Expr = f match {
+^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Mar 29, 2024 10:26:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 196
+Mar 29, 2024 10:26:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\.reports\metals-full\2024-03-29\r_compiler-error_22-26-14-277.md
+Mar 29, 2024 10:26:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+Mar 29, 2024 10:26:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 202
+2024.03.29 22:26:21 WARN  no build target for: C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+2024.03.29 22:26:27 INFO  time: evaluated worksheet 'pruevas.worksheet.sc' in 5.72s
+2024.03.29 22:35:57 INFO  Shutting down server
+2024.03.29 22:35:57 INFO  shutting down Metals
+2024.03.29 22:35:58 INFO  Shut down connection with build server.
+2024.03.29 22:35:58 INFO  Shut down connection with build server.
+2024.03.29 22:35:57 INFO  Exiting server
+2024.03.29 22:37:11 INFO  Started: Metals version 1.2.2 in folders 'C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3' for client Visual Studio Code 1.87.2.
+22:37:17.459 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+22:37:17.464 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+22:37:17.464 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+22:37:17.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+22:37:17.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader sun.misc.Launcher$AppClassLoader@4e25154f ...
+22:37:17.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+22:37:17.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+22:37:17.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader sun.misc.Launcher$AppClassLoader@4e25154f ...
+22:37:17.468 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/user/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+22:37:17.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+22:37:17.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+22:37:17.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+22:37:17.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+22:37:17.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+22:37:17.473 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+22:37:17.477 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:37:17.478 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+22:37:17.480 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+22:37:17.480 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+22:37:17.480 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+22:37:17.609 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\metals (H2 2.2)
+22:37:17.609 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+22:37:17.609 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+22:37:17.610 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+22:37:17.611 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+22:37:17.617 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+22:37:17.618 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+22:37:17.618 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:37:17.629 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+22:37:17.635 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:37:17.644 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:37:17.645 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:37:17.645 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:37:17.645 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:37:17.645 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:37:17.646 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+22:37:17.646 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+22:37:17.646 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+22:37:17.646 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+22:37:17.646 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+22:37:17.660 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.030s)
+22:37:17.663 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+22:37:17.671 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+22:37:17.674 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+22:37:17.755 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 20 of 133M
+2024.03.29 22:37:18 INFO  skipping build import with status 'Installed'
+2024.03.29 22:37:18 INFO  Attempting to connect to the build server...
+2024.03.29 22:37:18 INFO  Bloop uses C:\Program Files\OpenLogic\jdk-8.0.402.06-hotspot\ defined at C:\Users\user\.bloop\bloop.json
+2024.03.29 22:37:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.03.29 22:37:21 INFO  Attempting to connect to the build server...
+2024.03.29 22:37:21 INFO  Bloop uses C:\Program Files\OpenLogic\jdk-8.0.402.06-hotspot\ defined at C:\Users\user\.bloop\bloop.json
+2024.03.29 22:37:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\project\.metals\bsp.trace.json or C:\Users\user\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.03.29 22:37:22 INFO  time: Connected to build server in 3.72s
+2024.03.29 22:37:22 INFO  Connected to Build server: Bloop v1.5.15
+2024.03.29 22:37:22 INFO  time: Imported build in 0.4s
+2024.03.29 22:37:33 INFO  no build target found for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.29 22:37:37 INFO  time: indexed workspace in 3.85s
+2024.03.29 22:37:37 WARN  no build target for: C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+2024.03.29 22:37:58 INFO  time: evaluated worksheet 'pruevas.worksheet.sc' in 20s
+2024.03.29 22:37:59 WARN  no build target for: C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc
+2024.03.29 22:38:09 INFO  time: evaluated worksheet 'pruevas.worksheet.sc' in 10s
+2024.03.29 22:38:10 INFO  time: code lens generation in 11s
+2024.03.29 22:38:10 INFO  time: code lens generation in 11s
+2024.03.29 22:38:16 INFO  no build target found for C:\Users\user\Desktop\cuarto semestre\PFC\tallere3\taller3\src\test\pruevas.worksheet.sc. Using presentation compiler with project's scala-library version: 2.13.12
+2024.03.29 22:38:38 INFO  Shutting down server
+2024.03.29 22:38:38 INFO  shutting down Metals
+2024.03.29 22:38:38 INFO  Shut down connection with build server.
+2024.03.29 22:38:38 INFO  Shut down connection with build server.
+2024.03.29 22:38:38 INFO  Exiting server
