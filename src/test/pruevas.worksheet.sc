@@ -189,5 +189,44 @@ limpiar(derivar(Suma(Atomo('k'),Prod (Numero (3.0),Atomo('x'))),Atomo('x')))
 mostrar(limpiar(derivar(Suma(Atomo('k') ,Prod (Numero ( 3.0),Atomo('x'))),Atomo('x'))))
 
 
+/*def limpiar(f: Expr): Expr = f match {
+  case Numero(0) => Numero(0) // Reemplaza cero por cero
+  case Numero(1) => Numero(1) // Reemplaza uno por uno
+  case Suma(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+    case (Numero(0), e2Limpia) => e2Limpia // Si el primer término es cero, devuelve el segundo término
+    case (e1Limpia, Numero(0)) => e1Limpia // Si el segundo término es cero, devuelve el primer término
+    case (e1Limpia, e2Limpia) => Suma(e1Limpia, e2Limpia) // De lo contrario, mantén la suma intacta
+  }
+  case Resta(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+    case (e1Limpia, Numero(0)) => e1Limpia // Si el segundo término es cero, devuelve el primer término
+    case (e1Limpia, e2Limpia) => Resta(e1Limpia, e2Limpia) // De lo contrario, mantén la resta intacta
+  }
+  case Prod(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+    case (Numero(0), _) => Numero(0) // Si uno de los términos es cero, devuelve cero
+    case (_, Numero(0)) => Numero(0) // Si uno de los términos es cero, devuelve cero
+    case (Numero(1), e2Limpia) => e2Limpia // Si uno de los términos es uno, devuelve el otro término
+    case (e1Limpia, Numero(1)) => e1Limpia // Si uno de los términos es uno, devuelve el otro término
+    case (e1Limpia, e2Limpia) => Prod(e1Limpia, e2Limpia) // De lo contrario, mantén el producto intacto
+  }
+  case Div(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+    case (_, Numero(0)) => throw new ArithmeticException("División por cero") // Si el divisor es cero, lanza una excepción
+    case (Numero(0), _) => Numero(0) // Si el dividendo es cero, devuelve cero
+    case (e1Limpia, Numero(1)) => e1Limpia // Si el divisor es uno, devuelve el dividendo
+    case (e1Limpia, e2Limpia) => Div(e1Limpia, e2Limpia) // De lo contrario, mantén la división intacta
+  }
+  case Expo(e1, e2) => (limpiar(e1), limpiar(e2)) match {
+    case (_, Numero(0)) => Numero(1) // Cualquier número elevado a cero es uno
+    case (Numero(0), _) => Numero(0) // Cero elevado a cualquier número es cero
+    case (_, Numero(1)) => limpiar(e1) // Cualquier número elevado a uno es el número mismo
+    case (e1Limpia, e2Limpia) => Expo(e1Limpia, e2Limpia) // De lo contrario, mantén la exponenciación intacta
+  }
+  case Logaritmo(e1) => limpiar(e1) match {
+    case Numero(1) => Numero(0) // El logaritmo de uno en cualquier base es cero
+    case e1Limpia => Logaritmo(e1Limpia) // De lo contrario, mantén el logaritmo intacto
+  }
+  case e => e // En cualquier otro caso, devolver la expresión sin cambios
+}*/
+
+
 
 
